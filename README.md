@@ -1,34 +1,55 @@
-# Rohit Yadav | Portfolio Website
+# Rohit Yadav | Developer Portfolio
 
 Welcome to my personal portfolio website!  
-This site is built using HTML, CSS, and a little bit of JavaScript to showcase who I am, my skills, and how to contact me.
+This site is created using basic HTML, CSS, and hosted for free using GitHub Pages.
 
-## 🔗 Live Website
-You can view the website live at:  
-**https://rohityadav.github.io/**
+🔗 **Live Site:**  
+https://rohit-yadav5.github.io
 
-## 📌 About This Project
-This is a simple, beginner-friendly project designed to:
-- Practice frontend development (HTML, CSS, JS)
-- Create a professional portfolio to share with recruiters or companies
-- Host a free site using GitHub Pages
+---
 
-## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3**
-- **JavaScript (basic)**
-- **GitHub Pages** for hosting
+## 📌 About Me
 
-## 📁 Features
-- Clean, responsive layout
-- About Me section
-- Skills list
-- Contact information with email and LinkedIn
-- Fully hosted on GitHub Pages
+I’m Rohit Yadav, a BCA student passionate about web development and programming.  
+I’m currently learning:
 
-## 🚀 How to Use This Code
-If you want to use this template for your own portfolio:
+- HTML, CSS, JavaScript
+- React (Frontend Framework)
+- Python (Core & Basics of ML)
 
-1. Fork or clone this repository:
+This website showcases my skills, contact information, and the projects I’m working on.
+
+---
+
+## 🚀 Projects Included
+
+| Project             | Description                            | Status       |
+|---------------------|----------------------------------------|--------------|
+| Portfolio Website   | This live website (HTML + CSS)         | ✅ Completed |
+| Calculator App      | Simple calculator using JS             | 🔄 Coming Soon |
+| Movie Search App    | React app using OMDB API               | 🔄 Coming Soon |
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Basic)
+- GitHub Pages (for free hosting)
+
+---
+
+## 🧭 How to Use / Customize
+
+1. Clone the repo:
    ```bash
-   git clone https://github.com/rohityadav/rohityadav.github.io.git
+   git clone https://github.com/rohit-yadav5/rohit-yadav5.github.io
+
+
+📬 Contact
+
+📧 Email: rohityadav.0620@gmail.com
+🔗 LinkedIn: linkedin.com/in/rohityadav5
+💻 GitHub: github.com/rohit-yadav5
+
