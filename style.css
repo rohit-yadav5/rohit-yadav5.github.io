@@ -1,45 +1,108 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
+/* Reset some default styles */
+* {
   margin: 0;
-  background-color: #f0f4f8;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  max-width: 800px;
+/* Body and Fonts */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  max-width: 1000px;
   margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: 40px auto;
   padding: 20px;
 }
 
-header {
-  text-align: center;
-  padding: 30px 0;
-}
-
-header h1 {
-  margin: 0;
+.section h2 {
   color: #0066cc;
+  margin-bottom: 10px;
 }
 
-section {
-  margin: 30px 0;
+.section p {
+  margin-bottom: 15px;
 }
 
-h2 {
-  color: #444;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+/* Projects */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.project-card {
+  flex: 1 1 250px;
+  padding: 15px;
+  background-color: #eaf4ff;
+  border-left: 5px solid #0066cc;
+  border-radius: 8px;
 }
 
-ul li {
-  background: #e0f0ff;
+/* Buttons */
+.btn {
   display: inline-block;
-  margin: 5px;
-  padding: 8px 12px;
-  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #004a99;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eeeeee;
+  margin-top: 40px;
+  color: #666;
 }
