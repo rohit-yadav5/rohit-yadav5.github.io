@@ -26,7 +26,7 @@ This website showcases my skills, contact information, and the projects I’m wo
 | Project             | Description                            | Status       |
 |---------------------|----------------------------------------|--------------|
 | Portfolio Website   | This live website (HTML + CSS)         | ✅ Completed |
-| Calculator App      | Simple calculator using JS             | 🔄 Coming Soon |
+| Calculator App      | Simple calculator using JS             | ✅ Completed |
 | Movie Search App    | React app using OMDB API               | 🔄 Coming Soon |
 
 ---
