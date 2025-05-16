@@ -3,39 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rohit Yadav | Web Developer</title>
+  <title>Rohit Yadav | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
       <h1>Rohit Yadav</h1>
-      <p>Aspiring Web Developer | Learning React & Python</p>
-    </header>
-
-    <section class="about">
-      <h2>About Me</h2>
-      <p>Hi! I'm Rohit, a BCA student with a passion for web development. I'm learning HTML, CSS, JavaScript, React, and Python. I enjoy building simple web projects and learning through hands-on practice.</p>
-    </section>
-
-    <section class="skills">
-      <h2>Skills</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React (Beginner)</li>
-        <li>Python (Intermediate)</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </nav>
+  </header>
 
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: rohityadav.0620@gmail.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/rohityadav5" target="_blank">linkedin.com/in/rohityadav5</a></p>
-    </section>
-  </div>
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h2>Welcome!</h2>
+    <p>I'm Rohit Yadav, a BCA student passionate about web development and programming.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m currently pursuing my Bachelor’s in Computer Applications at Amity University. I enjoy building simple web projects and learning tools like HTML, CSS, JavaScript, Python, and React.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Simple Calculator</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Status: Coming Soon</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This website itself – hosted using GitHub Pages!</p>
+      </div>
+      <div class="project-card">
+        <h3>Movie Search App</h3>
+        <p>React + OMDB API</p>
+        <p>Status: Coming Soon</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:rohityadav.0620@gmail.com">rohityadav.0620@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/rohityadav5" target="_blank">linkedin.com/in/rohityadav5</a></p>
+    <p>GitHub: <a href="https://github.com/rohit-yadav5" target="_blank">github.com/rohit-yadav5</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rohit Yadav. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
