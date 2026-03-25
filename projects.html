@@ -3,47 +3,201 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projects - Rohit Yadav</title>
+  <title>Projects — Rohit Yadav</title>
+  <meta name="description" content="Rohit Yadav — Backend & AI Developer. Building RAG pipelines, local voice assistants, and backend APIs." />
+  <meta name="keywords" content="Backend Developer, AI Engineer, Python, FastAPI, Delhi, open to work" />
+  <meta property="og:title" content="Rohit Yadav — Backend & AI Developer" />
+  <meta property="og:description" content="Building AI-powered backend systems. Open to Backend/AI roles in Delhi NCR." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- Navigation -->
   <header>
-    <nav>
-      <h1>Rohit Yadav</h1>
-      <ul>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">Rohit Yadav</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener" class="nav-github">GitHub ↗</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="projects" class="section">
-    <h2>My Projects</h2>
-    <p>Here are a few beginner projects I’m working on as part of my learning journey:</p>
+  <!-- Page Header -->
+  <div class="section">
+    <p class="section-label fade-in">Work</p>
+    <h1 class="section-title fade-in">Projects</h1>
+    <p class="section-desc fade-in">
+      Things I've built — backend systems, AI tooling, and experiments.
+      All source code is on GitHub.
+    </p>
+  </div>
 
-    <div class="project-list">
-      <div class="project-card">
-        <h3>📱 Simple Calculator</h3>
-        <p>A basic calculator made using HTML, CSS, and JavaScript that performs addition, subtraction, multiplication, and division.</p>
-        <a href="https://rohit-yadav5.github.io/calculator" class="btn" target="_blank">View Live</a>
-      </div>
+  <!-- Projects Grid -->
+  <div class="section-alt">
+    <div class="section" style="padding-top: 48px; padding-bottom: 80px;">
+      <div class="projects-grid fade-in-group">
 
-      <div class="project-card">
-        <h3>🌐 Portfolio Website</h3>
-        <p>This website itself! Built using HTML and CSS, hosted with GitHub Pages to showcase my skills and projects.</p>
-        <a href="https://rohit-yadav5.github.io" class="btn" target="_blank">View Live</a>
-      </div>
+        <!-- 01 Small O -->
+        <div class="card">
+          <p class="card-num">01 — smallo_v2</p>
+          <h2 class="card-title">Small O</h2>
+          <p class="card-desc">
+            Fully local voice AI assistant with no cloud dependencies.
+            Speech is transcribed by Whisper, processed by a local Ollama LLM,
+            and spoken back via Piper TTS — streamed token-by-token over WebSockets
+            for low latency. Includes a FAISS-backed memory layer.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Whisper</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">Piper TTS</span>
+            <span class="tag">WebSockets</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">FastAPI</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/smallo_v2" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
 
-      <div class="project-card">
-        <h3>🎬 Movie Search App</h3>
-        <p>A React-based web app that lets users search for movies using the OMDB API. Displays titles, posters, and summaries.</p>
-        <p><strong>Status:</strong> Coming Soon</p>
+        <!-- 02 Spacewind -->
+        <div class="card">
+          <p class="card-num">02 — spacewind</p>
+          <h2 class="card-title">Spacewind</h2>
+          <p class="card-desc">
+            Self-hosted AI studio running on a Linux laptop. Features a RAG document
+            chatbot backed by ChromaDB and Gemini, a DOCX→PDF converter, and a GitHub
+            webhook auto-puller — all served from a single FastAPI server.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Linux</span>
+            <span class="tag">self-hosting</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/spacewind" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 03 Sheep Bot 2.0 -->
+        <div class="card">
+          <p class="card-num">03 — Sheep_bot_2-0</p>
+          <h2 class="card-title">Sheep Bot 2.0</h2>
+          <p class="card-desc">
+            Document Q&amp;A chatbot with semantic search, KMeans clustering for topic grouping,
+            paragraph-level citations, sentiment analysis, and full Docker support.
+            Combines ChromaDB, FAISS, and Gemini with a React frontend.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">KMeans</span>
+            <span class="tag">Docker</span>
+            <span class="tag">React</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/Sheep_bot_2-0" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 04 Adaptive Load Balancer -->
+        <div class="card">
+          <p class="card-num">04 — Load_balancing</p>
+          <h2 class="card-title">Adaptive Load Balancer</h2>
+          <p class="card-desc">
+            Python simulation of ε-greedy explore/exploit traffic routing across
+            5 async FastAPI servers. Uses Exponential Moving Average (EMA) latency
+            tracking to dynamically shift load toward the fastest backend.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">asyncio</span>
+            <span class="tag">algorithms</span>
+            <span class="tag">distributed systems</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/Load_balancing" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 05 ZenMaster -->
+        <div class="card">
+          <p class="card-num">05 — hackathon-techniki</p>
+          <h2 class="card-title">ZenMaster</h2>
+          <p class="card-desc">
+            Japanese language learning platform built at Techniki Hackathon.
+            I built the backend API layer powering the full React + TypeScript frontend.
+            Team project under time pressure.
+          </p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">React</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">hackathon</span>
+            <span class="tag">team project</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/hackathon-techniki" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 06 Mac Stats Viewer -->
+        <div class="card">
+          <p class="card-num">06 — Mac-stats-viewer</p>
+          <h2 class="card-title">Mac Stats Viewer</h2>
+          <p class="card-desc">
+            Real-time macOS system monitor for CPU, memory, battery, and network stats.
+            Live data is served from a Node.js/Express backend and rendered
+            in a vanilla JS frontend with automatic refresh.
+          </p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">macOS</span>
+            <span class="tag">vanilla JS</span>
+            <span class="tag">real-time</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/Mac-stats-viewer" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub ↗</a>
+          </div>
+        </div>
+
       </div>
     </div>
-  </section>
+  </div>
 
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/rohityadav5/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rohityadav.0620@gmail.com">Email</a>
+      </div>
+      <span class="open-badge">
+        <span class="dot"></span>
+        Open to work
+      </span>
+      <p class="footer-copy">© 2025 Rohit Yadav</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

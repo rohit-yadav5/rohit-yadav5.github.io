@@ -2,40 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Me – Rohit Yadav</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Rohit Yadav</title>
+  <meta name="description" content="Rohit Yadav — Backend & AI Developer. Building RAG pipelines, local voice assistants, and backend APIs." />
+  <meta name="keywords" content="Backend Developer, AI Engineer, Python, FastAPI, Delhi, open to work" />
+  <meta property="og:title" content="Rohit Yadav — Backend & AI Developer" />
+  <meta property="og:description" content="Building AI-powered backend systems. Open to Backend/AI roles in Delhi NCR." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- Navigation -->
   <header>
-    <nav>
-      <h1>Rohit Yadav</h1>
-      <ul>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">Rohit Yadav</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener" class="nav-github">GitHub ↗</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>If you’d like to connect, collaborate, or offer an opportunity, feel free to reach out using any of the methods below:</p>
+  <!-- Contact -->
+  <div class="section">
+    <p class="section-label fade-in">Contact</p>
+    <h1 class="section-title fade-in">Get in Touch</h1>
+    <p class="section-desc fade-in">
+      I'm currently looking for Backend/AI roles. If you're building something interesting,
+      reach out — I read every message.
+    </p>
 
-    <ul class="contact-info">
-      <li>📧 Email: <a href="mailto:rohityadav.0620@gmail.com">rohityadav.0620@gmail.com</a></li>
-      <li>🔗 LinkedIn: <a href="https://linkedin.com/in/rohityadav5" target="_blank">linkedin.com/in/rohityadav5</a></li>
-      <li>💻 GitHub: <a href="https://github.com/rohit-yadav5" target="_blank">github.com/rohit-yadav5</a></li>
-    </ul>
+    <span class="open-badge fade-in" style="margin-bottom: 48px; display: inline-flex;">
+      <span class="dot"></span>
+      Open to work — Delhi NCR (hybrid/remote)
+    </span>
 
-    <p>You can also leave a message using the contact form (Coming Soon).</p>
-  </section>
+    <div class="contact-grid">
 
+      <!-- Left: direct links -->
+      <div class="fade-in">
+        <p style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px;">Direct</p>
+        <div class="contact-links">
+
+          <a href="mailto:rohityadav.0620@gmail.com" class="contact-link">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">rohityadav.0620@gmail.com</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/rohityadav5/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/rohityadav5</span>
+          </a>
+
+          <a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/rohit-yadav5</span>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Right: contact form -->
+      <div class="fade-in">
+        <p style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px;">Send a message</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <input type="hidden" name="access_key" value="90d7efe9-745d-4311-9591-2165b1c40714" />
+          <input type="hidden" name="subject" value="Portfolio Contact — Rohit Yadav" />
+          <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+          <input type="checkbox" name="botcheck" style="display:none;" />
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+          </div>
+
+          <div id="form-success" class="form-success"></div>
+
+          <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Rohit Yadav. All rights reserved.</p>
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/rohityadav5/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rohityadav.0620@gmail.com">Email</a>
+      </div>
+      <span class="open-badge">
+        <span class="dot"></span>
+        Open to work
+      </span>
+      <p class="footer-copy">© 2025 Rohit Yadav</p>
+    </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

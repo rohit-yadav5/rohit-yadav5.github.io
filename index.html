@@ -3,72 +3,176 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rohit Yadav | Portfolio</title>
+  <title>Rohit Yadav — Backend & AI Developer</title>
+  <meta name="description" content="Rohit Yadav — Backend & AI Developer. Building RAG pipelines, local voice assistants, and backend APIs." />
+  <meta name="keywords" content="Backend Developer, AI Engineer, Python, FastAPI, Delhi, open to work" />
+  <meta property="og:title" content="Rohit Yadav — Backend & AI Developer" />
+  <meta property="og:description" content="Building AI-powered backend systems. Open to Backend/AI roles in Delhi NCR." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Header / Navigation -->
+  <!-- Navigation -->
   <header>
-    <nav>
-      <h1>Rohit Yadav</h1>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">Rohit Yadav</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener" class="nav-github">GitHub ↗</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Home Section -->
-  <section class="section" id="home">
-    <h2>Welcome!</h2>
-    <p>I'm <strong>Rohit Yadav</strong>, a BCA student passionate about web development, Python, and React. I'm building real-world projects while learning HTML, CSS, JavaScript, and GitHub.</p>
-    <a href="projects.html" class="btn">View My Projects</a>
-  </section>
-
-  <!-- About Section Preview -->
-  <section class="section" id="about-preview">
-    <h2>About Me</h2>
-    <p>I enjoy building websites, learning frontend tools, and creating useful projects. I'm currently working on multiple beginner projects and building this portfolio site to showcase my growth.</p>
-    <a href="about.html" class="btn">Read More</a>
-  </section>
-
-  <!-- Projects Section Preview -->
-  <section class="section" id="projects-preview">
-    <h2>Projects Overview</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>📱 Simple Calculator</h3>
-        <p>A basic calculator using HTML, CSS & JS. Coming Soon.</p>
-        <a href="https://rohit-yadav5.github.io/calculator" class="btn" target="_blank">View Live</a>
-      </div>
-      <div class="project-card">
-        <h3>🌐 Portfolio Website</h3>
-        <p>This website! Built with HTML/CSS and hosted on GitHub Pages.</p>
-        <a href="https://rohit-yadav5.github.io" class="btn" target="_blank">View Live</a>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-label">// backend &amp; ai developer</p>
+      <h1 class="hero-name">Rohit Yadav</h1>
+      <p class="hero-tagline"><span id="typing"></span><span class="cursor">|</span></p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
       </div>
     </div>
-    <a href="projects.html" class="btn">See All Projects</a>
   </section>
 
-  <!-- Contact Section Preview -->
-  <section class="section" id="contact-preview">
-    <h2>Get in Touch</h2>
-    <p>If you'd like to reach out or collaborate, feel free to contact me.</p>
-    <ul class="contact-info">
-      <li>Email: <a href="mailto:rohityadav.0620@gmail.com">rohityadav.0620@gmail.com</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/rohityadav5" target="_blank">linkedin.com/in/rohityadav5</a></li>
-      <li>GitHub: <a href="https://github.com/rohit-yadav5" target="_blank">github.com/rohit-yadav5</a></li>
-    </ul>
-    <a href="contact.html" class="btn">Full Contact Page</a>
-  </section>
+  <!-- About Preview -->
+  <div class="section-alt">
+    <div class="section">
+      <p class="section-label fade-in">About</p>
+      <h2 class="section-title fade-in">I build AI-powered backend systems.</h2>
+      <p class="section-desc fade-in">
+        From local voice assistants to RAG pipelines — I work on backend infrastructure and AI tooling that runs in the real world.
+        Currently open to Backend/AI Engineer roles in Delhi NCR (hybrid or remote).
+      </p>
+      <a href="about.html" class="btn btn-ghost fade-in">More about me →</a>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <p class="section-label fade-in">Stack</p>
+    <h2 class="section-title fade-in">What I work with</h2>
+    <div class="skills-wrap fade-in-group">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">FastAPI</span>
+      <span class="skill-tag">SQL</span>
+      <span class="skill-tag">TypeScript</span>
+      <span class="skill-tag">Ollama</span>
+      <span class="skill-tag">Whisper</span>
+      <span class="skill-tag">Piper TTS</span>
+      <span class="skill-tag">ChromaDB</span>
+      <span class="skill-tag">FAISS</span>
+      <span class="skill-tag">SentenceTransformers</span>
+      <span class="skill-tag">Gemini API</span>
+      <span class="skill-tag">NLP</span>
+      <span class="skill-tag">fine-tuning</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Linux</span>
+      <span class="skill-tag">WebSockets</span>
+      <span class="skill-tag">GitHub Webhooks</span>
+    </div>
+  </div>
+
+  <!-- Featured Projects -->
+  <div class="section-alt">
+    <div class="section">
+      <p class="section-label fade-in">Work</p>
+      <h2 class="section-title fade-in">Featured Projects</h2>
+      <p class="section-desc fade-in">A few things I've built. Real systems, not toy demos.</p>
+
+      <div class="featured-grid fade-in-group">
+
+        <!-- Small O -->
+        <div class="card">
+          <p class="card-num">01</p>
+          <h3 class="card-title">Small O</h3>
+          <p class="card-desc">
+            Fully local voice AI assistant. Whisper STT → Ollama LLM → Piper TTS, streamed token-by-token.
+            No cloud APIs. Runs entirely on your machine.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Whisper</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">FAISS</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/smallo_v2" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Spacewind -->
+        <div class="card">
+          <p class="card-num">02</p>
+          <h3 class="card-title">Spacewind</h3>
+          <p class="card-desc">
+            Self-hosted AI studio — RAG document chatbot, DOCX→PDF converter, GitHub webhook auto-puller.
+            All on one FastAPI server, served from a Linux laptop.
+          </p>
+          <div class="tags">
+            <span class="tag">FastAPI</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Linux</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/spacewind" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Sheep Bot 2.0 -->
+        <div class="card">
+          <p class="card-num">03</p>
+          <h3 class="card-title">Sheep Bot 2.0</h3>
+          <p class="card-desc">
+            Document Q&amp;A chatbot with semantic search, KMeans clustering, paragraph citations,
+            sentiment analysis, and Docker support.
+          </p>
+          <div class="tags">
+            <span class="tag">ChromaDB</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">KMeans</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/rohit-yadav5/Sheep_bot_2-0" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-footer fade-in">
+        <a href="projects.html" class="btn btn-outline">View all projects →</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Rohit Yadav. All rights reserved.</p>
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/rohit-yadav5" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/rohityadav5/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rohityadav.0620@gmail.com">Email</a>
+      </div>
+      <span class="open-badge">
+        <span class="dot"></span>
+        Open to work
+      </span>
+      <p class="footer-copy">© 2025 Rohit Yadav</p>
+    </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
